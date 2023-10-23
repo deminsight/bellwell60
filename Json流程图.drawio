@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T12:19:24.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="bwMhFreRu5L5_34e01Rq" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T12:22:46.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="mHFmwMbMnlYd5HsyIiJ7" version="22.0.6" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1179" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -169,6 +169,42 @@
           <mxGeometry x="-0.0766" y="20" relative="1" as="geometry">
             <mxPoint x="601" y="1095.06" as="sourcePoint" />
             <mxPoint x="769" y="1094.06" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQlBkAVt-6RhBXm4ACiW-25" value="KANZI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="903" y="880" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rQlBkAVt-6RhBXm4ACiW-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="948" y="1143" width="10" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="rQlBkAVt-6RhBXm4ACiW-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="958" y="1230" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rQlBkAVt-6RhBXm4ACiW-28" value="&lt;p class=&quot;MsoNormal&quot;&gt;SourceType&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1" source="rQlBkAVt-6RhBXm4ACiW-26" target="rQlBkAVt-6RhBXm4ACiW-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="833" y="1160" as="sourcePoint" />
+            <mxPoint x="963" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1018" y="1212" />
+              <mxPoint x="1018" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQlBkAVt-6RhBXm4ACiW-29" value="画面显示" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.066;exitY=0.713;exitPerimeter=0;" edge="1" parent="1" source="rQlBkAVt-6RhBXm4ACiW-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978.3333333333333" y="1280" as="sourcePoint" />
+            <mxPoint x="963" y="1319" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1018" y="1280" />
+              <mxPoint x="1018" y="1319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQlBkAVt-6RhBXm4ACiW-30" value="GUA_FECMD_ID_THEME" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1.171;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0766" y="20" relative="1" as="geometry">
+            <mxPoint x="780" y="1144" as="sourcePoint" />
+            <mxPoint x="948" y="1143" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
