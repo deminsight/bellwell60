@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T03:19:44.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="_MapiH4vjmyoCgvUDcZ4" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-24T03:23:36.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="WHOpQ1xbqcxiZ8Ez9qJ7" version="22.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1002" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,24 +140,32 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="408" y="1283" as="sourcePoint" />
             <mxPoint x="408" y="1333" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="1320" />
+              <mxPoint x="245" y="1320" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0cVivC7FAnk5mj-CIP8_-3" value="与kanzi通信接口gua_cb_get_fe_fecmd&lt;br&gt;回调数据GUA_FECMD_ID_JSON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="126" y="1472" width="280" height="40" as="geometry" />
+        <mxCell id="0cVivC7FAnk5mj-CIP8_-3" value="与kanzi通信接口gua_cb_get_fe_fecmd&lt;br&gt;回调数据GUA_FECMD_ID_THEME" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="112" y="1541" width="258" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0cVivC7FAnk5mj-CIP8_-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0cVivC7FAnk5mj-CIP8_-0" target="0cVivC7FAnk5mj-CIP8_-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="407.5" y="1375" as="sourcePoint" />
             <mxPoint x="407.5" y="1425" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="1320" />
+              <mxPoint x="555" y="1320" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0cVivC7FAnk5mj-CIP8_-5" value="kanzi显示" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="205" y="1563" width="120" height="40" as="geometry" />
+          <mxGeometry x="189" y="1630" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0cVivC7FAnk5mj-CIP8_-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="407.5" y="1464" as="sourcePoint" />
-            <mxPoint x="407.5" y="1514" as="targetPoint" />
+            <mxPoint x="248.5" y="1400" as="sourcePoint" />
+            <mxPoint x="248.5" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0cVivC7FAnk5mj-CIP8_-7" value="profl_storg_save_theme" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -179,6 +187,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="554.5" y="1400" as="sourcePoint" />
             <mxPoint x="554.5" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0cVivC7FAnk5mj-CIP8_-18" value="view模块FIFO处理view_proc中GUA_MSG_VIEW_CATALOG_FECMD_THEME" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="108" y="1450" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0cVivC7FAnk5mj-CIP8_-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="247.5" y="1490" as="sourcePoint" />
+            <mxPoint x="247.5" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0cVivC7FAnk5mj-CIP8_-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="247.5" y="1580" as="sourcePoint" />
+            <mxPoint x="247.5" y="1630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
