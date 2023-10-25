@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T09:10:38.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="o0BYZvikNiAT32klDPTO" version="22.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T09:10:45.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="tHzBhp7DbGfrdx7z7d_d" version="22.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1002" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,9 +458,6 @@
         <mxCell id="3JXhcpFCu_tkuBNvv-Zm-124" value="与kanzi通信接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="266.5" y="3880" width="153" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3JXhcpFCu_tkuBNvv-Zm-125" value="view模块FIFO处理view_proc中对限速报警进行处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="647.5" y="3240" width="280" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="3JXhcpFCu_tkuBNvv-Zm-126" value="QS_MSG_VI_DshbrdAlgo_VehSpd_INFO" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="228.88" y="3440" width="240.75" height="40" as="geometry" />
         </mxCell>
@@ -468,18 +465,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="343.38" y="3480" as="sourcePoint" />
             <mxPoint x="343.38" y="3530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3JXhcpFCu_tkuBNvv-Zm-128" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="788.5" y="3189" as="sourcePoint" />
-            <mxPoint x="788.5" y="3239" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3JXhcpFCu_tkuBNvv-Zm-129" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="787" y="3280" as="sourcePoint" />
-            <mxPoint x="787" y="3330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3JXhcpFCu_tkuBNvv-Zm-130" value="kanzi显示" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
